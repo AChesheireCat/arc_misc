@@ -124,14 +124,21 @@ class m : cls {
 
 class smg : r {
 	displayName = "Submachinegunner";
+<<<<<<< HEAD
 	primaryWeapon[] = {"CUP_smg_M3A1_blk"};
 	magazines[] = {
 		LIST_8("CUP_30Rnd_45ACP_M3A1_BLK_M"),
+=======
+	primaryWeapon[] = {"CUP_smg_Mac10"};
+	magazines[] = {
+		LIST_8("CUP_30Rnd_45ACP_MAC10_M"),
+>>>>>>> US_Army_1970
 		"HandGrenade",
 		"SmokeShell"
 	};
 };
 
+<<<<<<< HEAD
 class ftl : car {
 	displayName = "Fireteam Leader";
 	backPack[] = {"CUP_B_SLA_Medicbag"};
@@ -142,6 +149,14 @@ class ftl : car {
 		LIST_2("CUP_1Rnd_Smoke_M203"),
 		LIST_2("CUP_1Rnd_StarFlare_Red_M203"),
 		LIST_2("CUP_1Rnd_SmokeRed_M203"),
+=======
+class ftl : g {
+	displayName = "Fireteam Leader";
+	backPack[] = {"CUP_B_SLA_Medicbag"};
+	items[] += {"ACE_MapTools"};
+	magazines[] += {
+		LIST_2("1Rnd_SmokeRed_Grenade_shell"),
+>>>>>>> US_Army_1970
 		LIST_2("CUP_1Rnd_SmokeGreen_M203")
 	};
 	linkedItems[] += {
@@ -154,11 +169,23 @@ class sl : car {
 	displayName = "Squad Leader";
 	vest[] = {"usm_vest_LBE_rmp"};
 	backPack[] = {"CUP_B_SLA_Medicbag"};
+<<<<<<< HEAD
 	sidearmWeapon[] = {"CUP_hgun_Colt1911"};
 	magazines[] += {
 		"SmokeShell",
 		LIST_2("SmokeShellRed"),
 		LIST_2("SmokeShellGreen"),
+=======
+	primaryWeapon[] = {"CUP_arifle_M16A1GL"};
+	sidearmWeapon[] = {"CUP_hgun_Colt1911"};
+	magazines[] += {
+		LIST_3("CUP_15Rnd_9x19_M9"),
+		LIST_11("CUP_1Rnd_HE_M203"),
+		LIST_2("CUP_1Rnd_Smoke_M203"),
+		LIST_2("CUP_1Rnd_StarFlare_Red_M203"),
+		LIST_2("1Rnd_SmokeRed_Grenade_shell"),
+		LIST_2("CUP_1Rnd_SmokeGreen_M203"),
+>>>>>>> US_Army_1970
 		LIST_3("CUP_7Rnd_45ACP_1911")
 	};
 	linkedItems[] += {
@@ -167,7 +194,11 @@ class sl : car {
 	};
 };
 
+<<<<<<< HEAD
 class co : ftl {
+=======
+class co : sl {
+>>>>>>> US_Army_1970
 	displayName = "Platoon Leader";
 	headgear[] = {"usm_bdu_8point_odg"};
 };
@@ -430,7 +461,11 @@ class vg : smg {
 	backpack[] = {};
 	headgear[] = {"usm_helmet_cvc"};
 	magazines[] = {
+<<<<<<< HEAD
 		LIST_3("CUP_30Rnd_45ACP_M3A1_BLK_M"),
+=======
+		LIST_3("CUP_30Rnd_45ACP_MAC10_M"),
+>>>>>>> US_Army_1970
 		"SmokeShellPurple"
 	};
 };
@@ -465,7 +500,11 @@ class hc : smg {
 	};
 	items[] += {"ACE_MapTools"};
 	magazines[] = {
+<<<<<<< HEAD
 		LIST_3("CUP_30Rnd_45ACP_M3A1_BLK_M"),
+=======
+		LIST_3("CUP_30Rnd_45ACP_MAC10_M"),
+>>>>>>> US_Army_1970
 		"SmokeShellPurple"
 	};
 };
@@ -498,7 +537,11 @@ class jp : smg {
 	headgear[] = {"FIR_hgu26p"};
 	linkedItems[] += {"ItemGPS"};
 	magazines[] = {
+<<<<<<< HEAD
 		LIST_3("CUP_30Rnd_45ACP_M3A1_BLK_M"),
+=======
+		LIST_3("CUP_30Rnd_45ACP_MAC10_M"),
+>>>>>>> US_Army_1970
 		"SmokeShellPurple"
 	};
 };
